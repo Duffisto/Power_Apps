@@ -1,0 +1,9 @@
+Como começar a desenvolver PCF?
+
+Downloads - 
+
+https://nodejs.org/en/download/
+
+npm install
+
+pac install latest
