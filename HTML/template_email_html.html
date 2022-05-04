@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection">
+    <title></title>
+    <!--[if (mso 16)]>
+    <style type="text/css">
+    a {text-decoration: none;}
+    </style>
+    <![endif]-->
+    <!--[if gte mso 9]><style>sup { font-size: 100% !important; }</style><![endif]-->
+    <!--[if gte mso 9]>
+<xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG></o:AllowPNG>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+</head>
+
+<body>
+    <div class="es-wrapper-color">
+        <!--[if gte mso 9]>
+			<v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+				<v:fill type="tile" color="#fafafa"></v:fill>
+			</v:background>
+		<![endif]-->
+        <table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td class="esd-email-paddings" valign="top">
+                        <table cellpadding="0" cellspacing="0" class="es-header esd-header-popover" align="center">
+                            <tbody>
+                                <tr>
+                                    <td class="esd-stripe" align="center" esd-custom-block-id="388981">
+                                        <table bgcolor="#ffffff" class="es-header-body" align="center" cellpadding="0" cellspacing="0" width="600" style="border-left:1px solid #f6b26b;border-right:1px solid #f6b26b;border-top:1px solid #f6b26b;">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="esd-structure es-p10t es-p10b es-p20r es-p20l" align="left">
+                                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="558" class="es-m-p0r esd-container-frame" valign="top" align="center">
+                                                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                                                            <tbody>
+                                                                                <tr class="es-visible-simple-html-only">
+                                                                                    <td align="center" class="esd-block-image es-p20b" style="font-size: 0px;">
+                                                                                        <a target="_blank"><img src="https://vepicy.stripocdn.email/content/guids/CABINET_22bb76f3876c79aaf7480441ec5fa50d/images/logo_lean.png" alt="Logo" style="display: block; font-size: 12px;" width="200" title="Logo"></a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" class="es-content esd-footer-popover" align="center">
+                            <tbody>
+                                <tr>
+                                    <td class="esd-stripe" align="center">
+                                        <table bgcolor="#ffffff" class="es-content-body" align="center" cellpadding="0" cellspacing="0" width="600" style="border-left:1px solid #f6b26b;border-right:1px solid #f6b26b;border-bottom:1px solid #f6b26b;">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="esd-structure" align="left">
+                                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                                            <tbody>
+                                                                <tr class="es-visible-simple-html-only">
+                                                                    <td width="598" class="esd-container-frame es-container-visible-simple-html-only" align="center" valign="top">
+                                                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                                                            <tbody>
+                                                                                <tr class="es-visible-simple-html-only">
+                                                                                    <td align="center" class="esd-block-text es-m-txt-l">
+                                                                                        <h1 style="font-size: 17px; line-height: 100%;">Registro de Acidente</h1>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr >
+                                          <td style="padding-left: 30px; padding-right: 30px; padding-bottom: 20px;">
+
+                                                                                  Informamos que ocorreu um acidente recentemente e as devidas medidas já foram tomadas para a tratativa do mesmo!<br><br>Data do acidente: 20/04/2022 às 21:30 <br>
+Acidentado: @{outputs('obtem_acidente')?['body/Author/DisplayName']}<br>
+Tipo de acidente: @{outputs('obtem_acidente')?['body/tipo_acidente']}<br>
+Descrição do acidente:´@{outputs('obtem_acidente')?['body/descricao_acidente']}<br><br>Imagem relacionada ao acidente:<br>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" class="esd-block-image es-p10t es-p10b" style="font-size: 0px;" style="padding-bottom: 20px;"><br>
+                                                                                        <a target="_blank">@{variables('imagem')}</a><br>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
